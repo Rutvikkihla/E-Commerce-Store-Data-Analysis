@@ -49,35 +49,35 @@ This project analyzes the Superstore retail dataset to answer real business ques
 
 ## 🔄 Project Workflow
  
-### 1 — Data Loading & Exploration
+### 1 - Data Loading & Exploration
 - Loaded dataset using `pandas` with Latin-1 encoding
 - Explored structure using `df.info()` and `df.describe()`
 - Identified column types, value ranges, and null values
-### 2 — Data Cleaning & Feature Engineering
+### 2 - Data Cleaning & Feature Engineering
 - Converted `Order Date` and `Ship Date` to datetime format
 - Engineered new time-based features:
   - `order_month` — extracted month from Order Date
   - `order_day_of_week` — extracted weekday from Order Date
   - `order_year` — extracted year from Order Date
 - Exported cleaned dataset as `Clean_Superstore.csv`
-### 3 — Exploratory Data Analysis (10 Business Questions)
+### 3 - Exploratory Data Analysis (10 Business Questions)
  
 | # | Analysis |
 |---|---|
-| Q1 | Monthly Sales Analysis — best and worst performing months |
-| Q2 | Sales by Category — which category leads in revenue |
-| Q3 | Sales by Sub-Category — granular product performance |
-| Q4 | Monthly Profit Analysis — profit trends across the year |
-| Q5 | Profit by Category — which categories are truly profitable |
-| Q6 | Profit & Loss by Sub-Category — identifying loss-making products |
-| Q7 | Sales & Profit by Customer Segment — Consumer vs Corporate vs Home Office |
-| Q8 | Sales-to-Profit Ratio by Segment — efficiency of each customer group |
+| Q1 | Monthly Sales Analysis - best and worst performing months |
+| Q2 | Sales by Category - which category leads in revenue |
+| Q3 | Sales by Sub-Category - granular product performance |
+| Q4 | Monthly Profit Analysis - profit trends across the year |
+| Q5 | Profit by Category - which categories are truly profitable |
+| Q6 | Profit & Loss by Sub-Category - identifying loss-making products |
+| Q7 | Sales & Profit by Customer Segment - Consumer vs Corporate vs Home Office |
+| Q8 | Sales-to-Profit Ratio by Segment - efficiency of each customer group |
  
 ### 4 — Visualizations Built
-- 📈 Line chart — Monthly sales trend
-- 🍩 Donut charts — Sales and profit share by category
-- 📊 Bar charts — Sub-category sales, monthly profit, segment comparison
-- 📊 Grouped bar chart — Sales vs profit side-by-side by segment
+- 📈 Line chart - Monthly sales trend
+- 🍩 Donut charts - Sales and profit share by category
+- 📊 Bar charts - Sub-category sales, monthly profit, segment comparison
+- 📊 Grouped bar chart - Sales vs profit side-by-side by segment
 ---
  
 ## 📈 Key Results
