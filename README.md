@@ -138,7 +138,9 @@ This project analyzes the Superstore retail dataset to answer real business ques
 -`KPI Monitoring` → Track sales and profit together instead of relying only on revenue.
 -`Deeper Analysis` → Add regional and product-level diagnostics to understand profitability drivers.
 ---
- 
+## 📊 Dashboard Snapshot
+![Superstore Sales Dashboard](superstor_dashboard_snapshot.png)
+--- 
 ## 📁 Repository Structure
  
 ```
